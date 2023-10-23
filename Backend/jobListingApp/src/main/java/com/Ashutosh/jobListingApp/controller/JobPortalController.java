@@ -47,19 +47,6 @@ public class JobPortalController {
 		return ResponseEntity.ok(jobModal);
 	}
 	
-	// update employee rest api
-	@PutMapping("/job/{jobId}")
-	public ResponseEntity<JobModal> updateEmployee(@PathVariable Long jobId, @RequestBody JobModal jobDetails){
-		JobModal jobModal = jobRepository.findById(jobId).orElseThrow(() -> new ResourceNotFoundException("Job not exist with id :"+jobId));
-		
-		jobModal.setCompany(jobDetails.getCompany());
-		jobModal.setEmail(jobDetails.getEmail());
-		jobModal.setDetails(jobDetails.getDetails());
-		jobModal.setSalary(jobDetails.getSalary());
-		
-		JobModal updatedJob = jobRepository.save(jobModal);
-		return ResponseEntity.ok(updatedJob);
-	}	
 	@DeleteMapping("/job/{jobId}")
 	public ResponseEntity<Map<String,Boolean>> deleteEmployee(@PathVariable Long jobId){
 		

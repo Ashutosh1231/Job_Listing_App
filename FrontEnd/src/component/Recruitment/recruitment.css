@@ -1,0 +1,53 @@
+.button{
+    font-size: 20px;
+    display: flex;
+    width: fit-content;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0px 8px;
+}
+.button-a{
+    font-size: 20px;
+    display: flex;
+    width: fit-content;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0px 8px;
+    background-color: rgb(174, 196, 245);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.table{
+    width: 70%;
+    margin: 10px 230px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 8px 8px;
+}
+.button-u{
+    font-size: 17px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 2%;
+    padding: 0px 4px;
+    background: skyblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button-d{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 2%;
+    padding: 0px 4px;
+    background-color: rgb(201, 86, 86);
+}

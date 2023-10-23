@@ -1,0 +1,57 @@
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+.title{
+    font-size: 25px;
+    padding: 0px 8px;
+
+}
+.form-item{
+    margin: 12px 0px;
+    width: 70%;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: white;
+}
+.form-item label{
+    background-color: lightgray;
+    padding: 2px 12px;
+    border-radius: 0px 4px 4px 0px;
+}
+.form-item input{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 70%;
+}
+.form-add-buttom{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-add-buttom div{
+    display: flex;
+    border: 1px solid black;
+    padding: 2px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.cancel-button{
+    font-size: 17px;
+    display: flex;
+    width: fit-content;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0px 8px;
+}
+.button-side{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    padding: 0px 8px;
+}
